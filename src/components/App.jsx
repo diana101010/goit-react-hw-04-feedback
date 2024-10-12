@@ -1,16 +1,20 @@
+import React from 'react';
+import SectionTitle from './SectionTitle';
+
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        fontSize: 20,
+        color: 'black',
+        backgroundColor: 'lightgrey',
       }}
     >
-      React homework template
+      <SectionTitle />
     </div>
   );
 };
+
+export default App;

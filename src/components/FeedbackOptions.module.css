@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+.container {
+  display: block;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
